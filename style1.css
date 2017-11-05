@@ -1,0 +1,307 @@
+body
+{
+	background-image:url(1615841.png);
+}
+#wrapper
+{
+	width:1100px;
+	height:1330px;
+	background-color:white;
+	margin-top:30px;
+	margin-left:auto;
+	margin-right:auto;
+	box-shadow:0 2px 2px #AAAAAA;
+	border:2px solid #060CC8;
+}
+#header
+{
+	width:1100px;
+	height:150px;
+}
+#header img
+{
+	position:relative;
+	top:10px;
+	left:10px;
+}
+#header h2
+{
+	position:absolute;
+	top:35px;
+	left:280px;
+	font-size:60px;
+	color: #039;
+	text-shadow: #2e2e2e 0 4px 5px;
+	
+}
+#header h4
+{
+	color:blue;
+	position:absolute;
+	top:100px;
+	left:900px;
+}
+#header input
+{
+	position:absolute;
+	border-radius:5px;
+	border:1px solid darkblue;
+	height:18px;
+	top:140px;
+	left:880px;
+}
+#menu
+{
+	margin-left:20px;
+	height:40px;
+}
+ul
+{
+	margin:0px;
+	padding:0px;
+}
+ul li
+{
+	background-color:#112EF4;
+	border:1px solid white;
+	width:130px;
+	height:40px;
+	line-height:30px;
+	float:left;
+	text-align:center;
+	list-style:none;
+	border-radius:5px;
+	position:relative;
+	opacity:.7;	
+}	
+ul li a
+{
+	color:#FFF;
+	text-decoration:none;
+	position:relative;
+	top:5px;
+	display:block;
+	text-shadow: 4px 4px 12px rgba(150, 150, 150, 1);
+}
+ul li a:hover
+{
+	background-color:#FFF;
+	color:blue;
+}
+
+   ul li a.active {
+        color: #faee0a;
+    }
+ul li ul li
+{
+	float:right;
+}
+#paragraf
+{
+	position:relative;
+	top:10px;
+	left:50px;
+	width:1000px;
+}
+#paragraf p
+{
+	font-size:18px;
+	text-align:justify;
+}
+
+.informacije
+{
+	position:relative;
+	top:3px;
+	left:50px;
+	height:910px;
+	width:1000px;
+}
+.informacije1
+{
+	position:absolute;
+	top:250px;
+	left:145px;
+	height:940px;
+	width:1000px;
+}
+.informacije a
+{
+	color:#009;
+	font-style:oblique;
+	text-decoration:none;
+}
+.informacije .dio1
+{
+	height:300px;
+	width:1000px;
+}
+.informacije .dio1 img
+{
+	position:relative;
+	top:3px;
+	left:0px;
+	float:left;
+}
+.informacije h2
+{
+	position:relative;
+	top:8px;
+	left:50px;
+	font-size:22px;
+	color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.informacije p
+{
+	width:900px;
+	font-size:18px;
+	position:relative;
+	top:10px;
+	left:50px;
+}
+.informacije .dio2
+{
+	height:300px;
+	width:1000px;
+	position:relative;
+	top:5px;
+}
+.informacije .dio2 img
+{
+	position:relative;
+	top:-5px;
+	left:0px;
+	float:left;
+}
+.informacije .dio3
+{
+	height:300px;
+	width:1000px;
+}
+.informacije .dio3 img
+{
+	position:relative;
+	top:-5px;
+	left:0px;
+	float:left;
+}
+.informacije1 .dio1
+{
+	height:228px;
+	width:1000px;
+}
+.informacije1 .dio1 img
+{
+	position:relative;
+	top:3px;
+	left:0px;
+	float:left;
+}
+.informacije1 .dio1 li
+{
+	position:relative;
+	left:50px;
+}
+.informacije1 .dio2
+{
+	height:228px;
+	width:1000px;
+	position:relative;
+	top:3px;
+}
+.informacije1 .dio2 img
+{
+	position:relative;
+	top:3px;
+	left:0px;
+	float:left;
+}
+.informacije1 .dio3
+{
+	height:230px;
+	width:1000px;
+}
+.informacije1 .dio3 img
+{
+	position:relative;
+	top:3px;
+	float:left;
+}
+.informacije1 .dio3 p
+{
+	width:500px;
+	position:relative;
+	top:5px;
+}
+.informacije1 .dio1 li
+{
+	position:relative;
+	left:110px;
+}
+.informacije1 h2
+{
+	position:relative;
+	top:5px;
+	left:110px;
+	color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.informacije1 p
+{
+	width:900px;
+	font-size:18px;
+	position:relative;
+	top:10px;
+	left:40px;
+    left:110px;
+}
+.informacije1 .dio3 h2
+{
+	width:900px;
+    left:110px;
+}
+.informacije1 .dio3 p
+{
+	position:relative;
+	top:-5px;
+	width:950px;
+    left:110px;
+}
+.informacije1 .dio4 img
+{
+	position:relative;
+	top:-10px;
+	float:left;
+    left:55px;
+}
+.informacije1 .dio4 p
+{
+	position:relative;
+	top:-5px;
+	width:950px;
+    left:110px;
+}
+#footer
+{
+	text-align:center;
+	height:150px;
+	width:1100px;
+	position:absolute;
+	top:1365px;
+	left:123px;
+}
+#footer img
+{
+	position:relative;
+	top:75px;
+}
+#footer p
+{
+	position:relative;
+	top:55px;
+	color:white;
+	font-size:18px;
+}
+

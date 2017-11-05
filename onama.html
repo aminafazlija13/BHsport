@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="stil5.css" />
+    <link rel="shortcut icon" href="logo.jpg" />
+    <title>O nama - patika.ba</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <a href="index.html">
+            <img src="logo.jpg" /></a>
+            <h2>BH SPORT</h2>
+            <h4>Unesite pojam za pretragu:</h4>
+            <input type="text" size="35" />
+        </div>
+        <div id="menu">
+            <div>
+                <ul>
+                    <li> <a href="index.html" >Početna </a></li>
+                    <li> <a href="nogomet.html">Nogomet </a></li>
+                    <li> <a href="kosarka.html">Košarka </a></li>
+                    <li> <a href="rukomet.html">Rukomet </a></li>
+                    <li> <a href="ostali.html">Ostali sportovi </a></li>
+                    <li> <a href="registracija.html" target="_blank">Prijava </a></li>
+                    <li> <a href="kontakt.html">Kontakt </a></li>
+                    <li> <a href="onama.html" class="active">O nama </a></li>
+                </ul>
+
+            </div>
+
+            <div class="informacije1">
+                <br/>
+                <h2>Zdravo svima!</h2><p>Mi smo Amina Fazlija i Amela Pračić, studentice Prirodno-matematičkog fakulteta na odsjeku za matematiku, smjer Teorijske kompjuterske nauke.
+                <br />
+                Radimo na projektu iz predmeta Uvod u web dizajn. 
+                <br />
+                Ljubiteljice smo sporta, zbog toga smo izabrale temu BH SPORT. Željele smo objediniti sve sportove.
+                <br/>
+                 Za one koji možda žele da saznaju više informacija, tu su linkovi koji upućuju na pravu adresu.
+                <br /><br/>
+                Link za download plana našeg projekta: <a href="Tim 2A.docx"> Tim 2A </a><br/></br>
+		Naš partner je stranica:<a href="https://lejlamehinovic.neocities.org/posjetibih.html"> Moja Bosna i Hercegovina </a>
+                </p>
+            </div>
+
+        </div>
+	<h3>Ovo je naša lokacija</h3>
+	<div id="map"></div>
+
+	<script>
+	function myMap() 
+	{
+  		var myCenter = new google.maps.LatLng(43.854305, 18.394628);
+  		var mapCanvas = document.getElementById("map");
+  		var mapOptions = {center: myCenter, zoom: 10};
+  		var map = new google.maps.Map(mapCanvas, mapOptions);
+  		var marker = new google.maps.Marker({position:myCenter});
+  		marker.setMap(map);
+	}
+	</script>
+
+	<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+
+        <div id="footer">
+            <a href="https://www.facebook.com/" target="_blank"><img src="facebook olympic blue1.png" /></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="instagram olympian blue1.png" /></a>
+            <a href="https://twitter.com/" target="_blank"><img src="twitter olympian ble1.png" /></a>
+            <p>Copyright © 2A 2016.</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,453 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="logo.jpg" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css" media="screen" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+    <!-- <script src="https://cdn.datatables.net/1.10.13/js/dataTables.bootstrap.min.js"></script> -->
+    <!-- <script src="https://cdn.datatables.net/responsive/2.1.1/js/dataTables.responsive.min.js"></script> -->
+    <!-- <script src="https://cdn.datatables.net/responsive/2.1.1/js/responsive.bootstrap.min.js"></script> -->
+    <link rel="stylesheet" type="text/css" href="still.css" />
+    <title>patika.ba</title>
+
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <a href="index.html">
+                <img src="logo.jpg" />
+                <h2>BH SPORT</h2>
+                <h4>Unesite pojam za pretragu:</h4>
+                <input type="text" size="35" />
+            </a>
+        </div>
+        <div id="menu">
+            <div>
+                <ul>
+                    <li> <a href="index.html" class="active">Početna </a></li>
+                    <li> <a href="nogomet.html"<>Nogomet </a></li>
+                    <li> <a href="kosarka.html">Košarka </a></li>
+                    <li> <a href="rukomet.html">Rukomet </a></li>
+                    <li> <a href="ostali.html">Ostali sportovi </a></li>
+                    <li> <a href="registracija.html" target="_blank">Prijava </a></li>
+                    <li> <a href="kontakt.html">Kontakt </a></li>
+                    <li> <a href="onama.html">O nama </a></li>
+                </ul>
+
+            </div>
+            </div>
+        
+       <table id="example" class="display" cellspacing="0" width="100%" style="margin-left:2.5%">
+
+                <thead>
+
+                    <tr>
+
+                        <th rowspan="2">Ime i prezime</th>
+
+                        <th colspan="2">Informacije</th>
+
+                        <th colspan="3">Karijera</th>
+
+                    </tr>
+
+                    <tr>
+
+                        <th>Pozicija</th>
+
+                        <th>Sport</th>
+
+                        <th>Godina rođenja</th>
+
+                        <th>Cijena</th>
+
+                        <th>Trenutni klub</th>
+
+                    </tr>
+
+                </thead>
+
+                <tfoot>
+
+                    <tr>
+
+                        <th>Ime i prezime</th>
+
+                        <th>Pozicija</th>
+
+                        <th>Sport</th>
+
+                        <th>Godina rođenja</th>
+
+                        <th>Cijena</th>
+
+                        <th>Trenutni klub</th>
+
+                    </tr>
+
+                </tfoot>
+
+                <tbody>
+
+                    <tr>
+
+                        <td>Edin Džeko</td>
+
+                        <td>Napadač</td>
+
+                        <td>Nogomet</td>
+
+                        <td>1986.</td>
+
+                        <td>15.000.000 €</td>
+
+                        <td>AS Roma </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Asmir Begović</td>
+
+                        <td>Golman</td>
+
+                        <td>Nogomet</td>
+
+                        <td>1987.</td>
+
+                        <td>10.000.000 €</td>
+
+                        <td>FC Chelsea </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Haris Medunjanin</td>
+
+                        <td>Vezni</td>
+
+                        <td>Nogomet</td>
+
+                        <td>1985.</td>
+
+                        <td>2.000.000 €</td>
+
+                        <td>Maccabi Tel Aviv</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Vedad Ibišević</td>
+
+                        <td>Napadač</td>
+
+                        <td>Nogomet</td>
+
+                        <td>1984. </td>
+
+                        <td>2.500.000 €</td>
+
+                        <td>Hertha BSC</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Emir Spahić</td>
+
+                        <td>Odbrana </td>
+
+                        <td>Nogomet</td>
+
+                        <td>1980.</td>
+
+                        <td>750.000 €</td>
+
+                        <td>Hamburger SV </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Milan Đurić</td>
+
+                        <td>Napadač </td>
+
+                        <td>Nogomet</td>
+
+                        <td>1990.</td>
+
+                        <td>1.000.000 €</td>
+
+                        <td>Bristol City </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Miralem Pjanić</td>
+
+                        <td>Vezni </td>
+
+                        <td>Nogomet</td>
+
+                        <td>1990.</td>
+
+                        <td>38.000.000 €</td>
+
+                        <td>Juventus Turin </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Senad Lulić</td>
+
+                        <td>Vezni </td>
+
+                        <td>Nogomet</td>
+
+                        <td>1986.</td>
+
+                        <td>7.000.000 €</td>
+
+                        <td>Lazio Roma </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Edin Višća</td>
+
+                        <td>Napadač</td>
+
+                        <td>Nogomet</td>
+
+                        <td>1990.</td>
+
+                        <td>7.750.000 €</td>
+
+                        <td>Medipol Basaksehir</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Mirza Teletović</td>
+
+                        <td>Krilni centar </td>
+
+                        <td>Košarka</td>
+
+                        <td>1985.</td>
+
+                        <td>50.000 €</td>
+
+                        <td>Milwaukeee Bucks </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Jusuf Nurkić</td>
+
+                        <td>Centar </td>
+
+                        <td>Košarka</td>
+
+                        <td>1994.</td>
+
+                        <td>60.000 €</td>
+
+                        <td>Denver Nuggets</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Nikola Prce</td>
+
+                        <td>lijevi bek</td>
+
+                        <td>Rukomet</td>
+
+                        <td>1980.</td>
+
+                        <td>18.000 €</td>
+
+                        <td>Azoty Pulawy</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Benjamin Burić</td>
+
+                        <td>Golman</td>
+
+                        <td>Rukomet</td>
+
+                        <td>1990.</td>
+
+                        <td>10.000 €</td>
+
+                        <td>HSG Wezlar</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Muhamed Toromanović</td>
+
+                        <td>Pivota</td>
+
+                        <td>Rukomet</td>
+
+                        <td>1984.</td>
+
+                        <td>8.000 €</td>
+
+                        <td>Creteil</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Vladimir Vranješ</td>
+
+                        <td>Pivota</td>
+
+                        <td>Rukomet</td>
+
+                        <td>1988.</td>
+
+                        <td>7.500 €</td>
+
+                        <td>Tabanya KC</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Ivan Karačić</td>
+
+                        <td>Centralni bek </td>
+
+                        <td>Rukomet</td>
+
+                        <td>1985.</td>
+
+                        <td>12.000 €</td>
+
+                        <td>Maccabi Rishon LeZion</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Marko Panić</td>
+
+                        <td>Desni bek td>
+
+                        <td>Rukomet</td>
+
+                        <td>1991.</td>
+
+                        <td>7.000 €</td>
+
+                        <td>Chambery</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Alen Ovčina</td>
+
+                        <td>Lijevo krilo</td>
+
+                        <td>Rukomet</td>
+
+                        <td>1989.</td>
+
+                        <td>10.000 €</td>
+
+                        <td>Antalyaspor</td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Josip Perić</td>
+
+                        <td>Centralni bek </td>
+
+                        <td>Rukomet</td>
+
+                        <td>1992.</td>
+
+                        <td>7.000 €</td>
+
+                        <td>HC Odorheiu Secuiesc </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Senjamin Burić</td>
+
+                        <td>Pivota </td>
+
+                        <td>Rukomet</td>
+
+                        <td>1990.</td>
+
+                        <td>10.000 €</td>
+
+                        <td>HBC Nantes </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Mirsad Terzić</td>
+
+                        <td>Lijevi bek </td>
+
+                        <td>Rukomet</td>
+
+                        <td>1983.</td>
+
+                        <td>13.000 €</td>
+
+                        <td>MKB Veszprém KC </td>
+
+                    </tr>
+
+
+
+                </tbody>
+
+            </table>
+           
+        </div>
+    <div id="footer">
+                <a href="https://www.facebook.com/" target="_blank"><img src="facebook olympic blue1.png" /></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="instagram olympian blue1.png" /></a>
+                <a href="https://twitter.com/" target="_blank"><img src="twitter olympian ble1.png" /></a>
+                <p>Copyright © 2A 2016.</p>
+     </div>
+    <script type="text/javascript">
+                    $(document).ready(function () {
+                        $('#example').DataTable();
+                    });
+    </script>
+</body>
+</html>
